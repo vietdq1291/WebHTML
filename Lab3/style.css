@@ -1,0 +1,84 @@
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.wraper {
+    width: 80%;
+    margin: auto;
+}
+
+.header {
+    height: 200px;
+    background-color: #b8c2cb;
+}
+
+.header-title {
+    float: right;
+    text-align: left;
+    width: 60%;
+}
+
+.header-name {
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 15px;
+}
+
+.job-title {
+    font-size: 20px;
+    line-height: 2px;
+}
+
+.content {
+    background-color: #F1F1E5;
+    min-height:90%;
+}
+
+.content-first {
+    width: 60%;
+    float: right;
+    text-align: left;
+    border-bottom: solid;
+    border-width: 1px;
+}
+
+.content-first p {
+  padding-bottom: 30px;
+  padding-top:20px;
+}
+
+.content-personal {
+    position: absolute;
+    top: 60px;
+    left: 315px;
+    background-color: #e8e8e8;
+    width: 20%;
+    min-height: 100%;
+}
+
+.image-avatar{
+    text-align:center;
+}
+
+.avatar {
+    max-width: 200px;
+    max-height: 200px;
+    border-radius: 50%;
+}
+
+.infomation {
+    width: 70%;
+    margin: auto;
+}
+
+.icon-info {
+    font-size: 30px !important;
+}
+.icon-info-text {
+    min-height: 60px;
+    font-size: 25px !important;
+    display: flex;
+    align-items: center;
+    line-height: 30px;
+}
