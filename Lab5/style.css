@@ -1,0 +1,125 @@
+
+body {
+    text-align: center;
+    font-family: Arial;
+}
+
+.warp {
+    width: 100%;
+    clear: both;
+    min-height: 20%;
+    display: flex;
+    margin: auto;
+    padding: 5px;
+}
+
+
+
+.content-left {
+    width: 70%;
+    min-height: 200px;
+}
+
+    .content-left h1 {
+        text-align: left;
+    }
+
+.content-right {
+    width: 30%;
+    background-color: burlywood;
+    min-height: 200px;
+    margin-left: 25px;
+}
+
+.mainform {
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: gainsboro;
+}
+
+.form-control {
+    display: grid;
+    margin-top: 20px;
+}
+
+    .form-control label {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .form-control input, select {
+        min-height: 30px;
+        font-size: 18px;
+    }
+
+.form-control_50 {
+    display: grid;
+    margin-top: 20px;
+    max-width: 50%;
+}
+
+    .form-control_50 label {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .form-control_50 input {
+        min-height: 30px;
+        font-size: 18px;
+    }
+
+
+.left-form {
+    width: 50%;
+    float: left;
+}
+
+.right-form {
+    width: 45%;
+    float: right;
+    padding-left: 10px;
+}
+
+    .right-form img {
+        max-height: 30px;
+    }
+
+.right {
+    float: right !important;
+}
+
+.left {
+    float: left !important;
+}
+
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    color: #212529;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.btn-success {
+    color: #fff;
+    background-color: #28a745;
+    border-color: #28a745;
+    min-width: 100%;
+    min-height: 45px;
+    margin-top:10px;
+}

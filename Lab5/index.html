@@ -1,0 +1,91 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Bài lab 5</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.css" type="text/css" />
+</head>
+<body>
+    <div class="warp">
+        <div class="content-left">
+            <h1>Form Thanh Toán</h1>
+            <div class="mainform">
+                <form>
+                    <div class="left-form">
+                        <h2>Địa chỉ thanh toán</h2>
+                        <div class="form-control">
+                            <label><i class="fa fa-user"></i> Họ và tên</label>
+                            <input type="text" name="fullname" placeholder="Trần Văn A" />
+                        </div>
+                        <div class="form-control">
+                            <label><i class="fa fa-envelope"></i> Email</label>
+                            <input type="text" name="email" placeholder="atranvan@gmail.com" />
+                        </div>
+                        <div class="form-control">
+                            <label><i class="fa fa-address-card"></i> Địa chỉ</label>
+                            <input type="text" name="address" placeholder="nhập địa chỉ" />
+                        </div>
+                        <div class="form-control">
+                            <label>Thành phố</label>
+                            <select name="City">
+                                <option value="HN">Hà Nội</option>
+                                <option value="DN">Đà Nẵng</option>
+                                <option value="HCM">TP.HCM</option>
+                                <option value="VT">Vũng Tàu</option>
+                            </select>
+                        </div>
+
+                        <div class="form-control_50 left">
+                            <label>Quốc Gia</label>
+                            <input type="text" name="nation" placeholder="VN.." />
+                        </div>
+                        <div class="form-control_50 right">
+                            <label>Mã bưu điện</label>
+                            <input type="text" name="postcode" placeholder="1001" />
+                        </div>
+                        <div class="form-control left">
+                            <label><input type="checkbox" name="shipaddress" /> Địa chỉ nhận hàng tương ứng địa chỉ thanh toán</label>
+                        </div> 
+
+                    </div>
+                    <div class="right-form">
+                        <h2>Thanh toán</h2>
+                        <div class="form-control">
+                            <label>Chấp nhận thanh toán các loại thẻ</label>
+                            <img src="img/credit-card-logos.png" />
+                        </div>
+                        <div class="form-control">
+                            <label> Tên chủ thẻ</label>
+                            <input type="text" name="NameCredit" placeholder="DINH QUOC VIET" />
+                        </div>
+                        <div class="form-control">
+                            <label> Mã số thẻ</label>
+                            <input type="text" name="CreditNumber" placeholder="4115-5151-5252-5216" />
+                        </div>
+                        <div class="form-control">
+                            <label> Tháng hết hạn</label>
+                            <input type="text" name="address" placeholder="Tháng 9" />
+                        </div>
+                        <div class="form-control_50 left">
+                            <label>Năm hết hạn</label>
+                            <input type="text" name="expYear" placeholder="VN.." />
+                        </div>
+                        <div class="form-control_50 right">
+                            <label>Mã bảo mật thẻ</label>
+                            <input type="text" name="CVV" placeholder="1001" />
+                        </div>
+                    </div>
+                    <div style="clear:both"></div>
+                    <button type="button" class="btn btn-success">Tiếp tục thanh toán</button>
+                </form>
+            </div>
+        </div>
+        <!--<div class="content-right">
+
+        </div>-->
+    </div>
+</body>
+</html>
